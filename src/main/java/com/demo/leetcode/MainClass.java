@@ -19,11 +19,21 @@ public class MainClass {
 //        int target = 18;
 //        System.out.println(Arrays.toString(sum(nums, target)));
 
-        ReplaceSpace replaceSpace = new ReplaceSpace();
-        String s = "wo shi ni ba ba";
-        String s1 = "";
-        String s2 = replaceSpace.replaceNull(s, s1);
-        System.out.println(s2);
+//        ReplaceSpace replaceSpace = new ReplaceSpace();
+//        String s = "wo shi ni ba ba";
+//        String s1 = "";
+//        String s2 = replaceSpace.replaceNull(s, s1);
+//        System.out.println(s2);
+//        ReversePrint reversePrint = new ReversePrint();
+//        Object[] nums = {2,7,11,15,6,9,0,1,'s'};
+//        Object[] objects = reversePrint.reverseLink(nums);
+//        System.out.println(Arrays.toString(Arrays.stream(objects).toArray()));
+//        Fib fib = new Fib();
+//        int fib1 = fib.fib(3);
+//        System.out.println(fib1);
+        NumWays numWays = new NumWays();
+        System.out.println(numWays.numWays(7));
+
     }
 
     /**
