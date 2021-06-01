@@ -31,8 +31,17 @@ public class MainClass {
 //        Fib fib = new Fib();
 //        int fib1 = fib.fib(3);
 //        System.out.println(fib1);
-        NumWays numWays = new NumWays();
-        System.out.println(numWays.numWays(7));
+//        NumWays numWays = new NumWays();
+//        System.out.println(numWays.numWays(7));
+//        Map<String,Object> map = new HashMap<>(1334);
+//
+//        System.out.println(map.size());
+        int[] arr = {4,3,1,6,8,7,2,9};
+        QuickSort quickSort = new QuickSort();
+        quickSort.quick(arr,0,arr.length-1);
+        for (int i:arr){
+            System.out.println(i);
+        }
 
     }
 
