@@ -22,6 +22,8 @@ public class QuickSort {
         p = arr[s];
         i = s;
         j = e;
+
+        // 依据基准数对数据进行分组，基准数前的都小于等于基准数，基准数后的都大于等于基准数
         while (i < j){
             while (arr[j] >=p && i<j){
                 j--;
@@ -33,6 +35,7 @@ public class QuickSort {
             arr[j] = arr[i];
             arr[i] = temp;
         }
+        // 把基准数放在数据中间
         arr[s] = arr[i];
         arr[i] = p;
         quick(arr,s,j-1);
