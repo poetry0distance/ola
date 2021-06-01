@@ -36,12 +36,14 @@ public class MainClass {
 //        Map<String,Object> map = new HashMap<>(1334);
 //
 //        System.out.println(map.size());
-        int[] arr = {4,3,1,6,8,7,2,9};
-        QuickSort quickSort = new QuickSort();
-        quickSort.quick(arr,0,arr.length-1);
-        for (int i:arr){
-            System.out.println(i);
-        }
+//        int[] arr = {4,3,1,6,8,7,2,9};
+//        QuickSort quickSort = new QuickSort();
+//        quickSort.quick(arr,0,arr.length-1);
+//        for (int i:arr){
+//            System.out.println(i);
+//        }
+        CountOneNumber countOneNumber = new CountOneNumber();
+        System.out.println(countOneNumber.numberOfOne(00000000000000000000000010000000));
 
     }
 
