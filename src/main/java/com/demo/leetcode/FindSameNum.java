@@ -57,4 +57,5 @@ public class FindSameNum {
         int repeatNumber = sameNum(a) ;
         System.out.println(repeatNumber);
     }
+
 }
